@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/news.css';
+import PropTypes from 'prop-types';
 
 export const News = (props)=>{
   return(<div>
@@ -24,4 +25,8 @@ export const News = (props)=>{
    </div>
    )}
   </div>);
-}
+};
+
+News.propTypes = {
+  data: PropTypes.array
+};
