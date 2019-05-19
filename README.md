@@ -6,7 +6,7 @@ Makers week 7. News Summary challenge.
 
 - First of all, sorry that I am late today. I am coming to Makers from Birmingham.
 - Secondly, I did the weekend challenge using ReactJs.
-- Lastly , please give me a feedback on my test suite and how readable my codebase is.
+- Lastly, please give me a feedback on my test suite and how readable my codebase is.
 
 <h4 align='center'>
 User Stories.
@@ -43,7 +43,7 @@ How To Use Application.
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/37377831/57982986-7d4bdf80-7a44-11e9-82ec-0eae37e568da.gif)
 
 <h1 align='center'>
-Imporovements
+Imporovements.
 </h1>
 
 > I think the application currently has all the main features, but there are still lots to be done.
@@ -60,6 +60,8 @@ Imporovements
 <img width="809" alt="Screen Shot 2019-05-19 at 14 30 23" src="https://user-images.githubusercontent.com/37377831/57983318-2ea04480-7a48-11e9-8b0b-54f695b75823.png">
 
 > I need to use css media query to resize some of the content on the page at certain breakpoints.
+
+- I also need to learn and write a proper unit test for this application.
 
 - Sunday 19th May 2019 (Update)
 
