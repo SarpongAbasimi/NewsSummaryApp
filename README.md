@@ -11,6 +11,7 @@ Makers week 7. News Summary challenge.
 <h4 align='center'>
 User Stories.
 </h4>
+
 - As a busy politician.
 - So I know what the big stories of the day are (Done).
 - I can click a link to see the original news article (Done).
@@ -25,16 +26,17 @@ How To Use Application.
 
 - ``Fork`` and ``clone`` this repo.
 - In terminal cd into ``app``.
+- Run ``npm install``.
 - To run test type ``npm run cypress``.
 - To start server ``npm start``
-- copy and paste this in the browser ``http://localhost:3000/``.
+- Copy and paste this in the browser ``http://localhost:3000/``.
 - You might not see anything because the ``API`` key is not in your cloned folder.
-- You can visit here **[here]('https://open-platform.theguardian.com/access/')**.
-- Register to ket an apiKey.
-- Inside of scr create a ``config.js`` file.
+- You can visit here **[here](https://open-platform.theguardian.com/access/)**.
+- Register to get an ``apiKey``.
+- Inside of src create a ``config.js`` file.
 - create an object called ``apiKey``.
 - Inside this object cteate a key called ``guardian``.
-- The value of this key should be ``https://content.guardianapis.com/search?&page-size=30&show-fields=starRating,headline,trailText,thumbnail,short-url&`` plus your API key.
+- The value of this key should be ``https://content.guardianapis.com/search?&page-size=30&show-fields=starRating,headline,trailText,thumbnail,short-url&`` plus your ``API key``.
 - Finally export the object that you created like so ``export const apiKey``.
 - This is what you should see.
 
