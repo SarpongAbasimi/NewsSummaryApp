@@ -28,7 +28,15 @@ How To Use Application.
 - To run test type ``npm run cypress``.
 - To start server ``npm start``
 - copy and paste this in the browser ``http://localhost:3000/``.
-- You should see this.
+- You might not see anything because the ``API`` key is not in your cloned folder.
+- You can visit here **[here]('https://open-platform.theguardian.com/access/')**.
+- Register to ket an apiKey.
+- Inside of scr create a ``config.js`` file.
+- create an object called ``apiKey``.
+- Inside this object cteate a key called ``guardian``.
+- The value of this key should be ``https://content.guardianapis.com/search?&page-size=30&show-fields=starRating,headline,trailText,thumbnail,short-url&`` plus your API key.
+- Finally export the object that you created like so ``export const apiKey``.
+- This is what you should see.
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/37377831/57982986-7d4bdf80-7a44-11e9-82ec-0eae37e568da.gif)
 
