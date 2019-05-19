@@ -1,0 +1,76 @@
+#main-news-container{
+  padding: 10px;
+}
+
+#news-feed-info{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1F2328;
+}
+
+#news-feed-info #sec-name{
+  color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px;
+  font-size: 12px;
+}
+
+#news-feed-info .findMore{
+  color: #FFFFFF;
+  width: 120px;
+  background-color: #FD1014;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+
+#news-feed-info .findMore:hover{
+  opacity: 0.8;
+}
+#news-feed-info ul{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#news-feed-info ul li{
+  list-style-type: none;
+  color: #FFFFFF;
+}
+#news-feed-info  #imgdivContainer{
+  width: 200px;
+}
+#news-feed-info .img-text-container{
+display: flex;
+}
+
+#news-feed-info .img-text-container #imgdivContainer{
+  width: 600px;
+  background-color: azure;
+  padding: 5px;
+}
+#news-feed-info .img-text-container #imgdivContainer span{
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+}
+#news-feed-info .img-text-container #imgdivContainer img{
+  width: 100%;
+}
+#news-feed-info .img-text-container .trailText{
+ padding: 10px;
+ display: flex;
+ background-color: #FD1014;
+ border-top-right-radius: 2px;
+ border-bottom-right-radius: 2px;
+}
+#news-feed-info .img-text-container .trailText span{
+  align-self: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #FFFFFF;
+}

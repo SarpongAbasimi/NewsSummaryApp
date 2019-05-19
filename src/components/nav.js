@@ -1,6 +1,11 @@
 import React from 'react';
-import '../styles/nav.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import '../styles/nav.css';
 
 export const Nav = ()=>{
-  return <div id='nav'>News Summary</div>
+  return (<div id='nav'>
+    <div className="container img-container">
+    <FontAwesomeIcon icon="newspaper" className='newsPaper'/>
+    </div>
+  </div>)
 }
