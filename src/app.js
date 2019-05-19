@@ -1,7 +1,15 @@
 import React from 'react';
+import '../src/styles/app.css';
+import { Nav } from './components/nav';
+import {Body } from './components/body';
 
 export class NewsSummary extends React.Component{
   render(){
-    return <h1>Hello world</h1>
+      return(
+        <div>
+          <Nav/>
+          <Body/>
+        </div>
+      )
   } 
 }

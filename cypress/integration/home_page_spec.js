@@ -1,8 +1,6 @@
-
-
-describe('Home Page', ()=>{
-  it('should say hello world',()=>{
+describe('App', ()=>{
+  it('It works',()=>{
     cy.visit('/')
-    cy.contains('Hello world')
+    cy.contains('News Summary')
   });
 });

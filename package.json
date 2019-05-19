@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "env-cmd": "^9.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -30,6 +31,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^3.3.0"
+    "cypress": "^3.3.0",
+    "cypress-react-unit-test": "^2.4.1"
   }
 }
