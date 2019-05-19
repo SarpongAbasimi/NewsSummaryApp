@@ -15,6 +15,13 @@
   font-family: 'Montserrat', sans-serif;
   padding: 5px;
   font-size: 12px;
+  transition: color 200ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 150px;
+}
+
+#news-feed-info #sec-name:hover{
+  color:#FD1014 ;
+  opacity: 0.8;
 }
 
 #news-feed-info .findMore{
@@ -76,10 +83,6 @@ display: flex;
 }
 
 @media only screen and (max-width: 600px) {
-  #news-feed-info{
-    background-color: gold;
-  }
-
   #news-feed-info .img-text-container{
     flex-direction: column;
   }

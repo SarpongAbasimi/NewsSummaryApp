@@ -2,6 +2,12 @@
 Makers week 7. News Summary challenge.
 </h1>
 
+> To my pair partner for code review.
+
+- First of all, sorry that I am late today. I am coming to Makers from Birmingham.
+- Secondly, I did the weekend challenge using ReactJs.
+- Lastly , please give me a feedback on my test suite and how readable my codebase is.
+
 <h4 align='center'>
 User Stories.
 </h4>
@@ -39,13 +45,23 @@ Imporovements
 
 - The problem is that, some of the images from the guardian API are originally really small, therefore setting the size to a small width would make the smaller images even smaller and that will affect the user experience.
 
-- This is the problem I am currently facing with regards to responsiveness.
+- This is the problem I am currently facing with regards to responsiveness. (Solved)
 
 <img width="809" alt="Screen Shot 2019-05-19 at 14 30 23" src="https://user-images.githubusercontent.com/37377831/57983318-2ea04480-7a48-11e9-8b0b-54f695b75823.png">
 
 > I need to use css media query to resize some of the content on the page at certain breakpoints.
 
+- Sunday 19th May 2019 (Update)
 
+- The application is now fully responsive after a bit of refactoring and using media quries.
+
+- How it looks like on mobile device now.
+
+<img width="504" alt="Screen Shot 2019-05-19 at 16 11 40" src="https://user-images.githubusercontent.com/37377831/57984336-ba1ed300-7a52-11e9-8eb3-be64243f16cb.png">
+
+> The issues regarding the div overflow was solved my doing this.
+
+<img width="652" alt="Screen Shot 2019-05-19 at 16 12 04" src="https://user-images.githubusercontent.com/37377831/57984362-010cc880-7a53-11e9-8258-8e729fa69737.png">
 
 <h1 align='center'>
 Challenges.
