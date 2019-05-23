@@ -1,6 +1,7 @@
 import React from 'react';
 import { apiKey } from '../config';
 import { News } from '../components/news';
+//import { apiCall } from '../components/apicall';
 
 export class Body extends React.Component{
   constructor(props){
