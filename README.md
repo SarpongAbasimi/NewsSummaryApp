@@ -79,7 +79,7 @@ Imporovements.
 Challenges.
 </h1>
 
-- I know I can TDD anything, but I stggled to write atest for this application.
+- I know I can TDD anything, but I struggled to write atest for this application.
 - I was able you use cypress as my testing framework for feature testing, but I did not do any unit testing which is bad.
 
 <h1 align='center'>
