@@ -24,7 +24,7 @@
     "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --collect-coverage",
     "eject": "react-scripts eject",
     "cypress": "node_modules/.bin/cypress open",
     "heroku-postbuild": "npm run build"
@@ -46,6 +46,9 @@
   },
   "devDependencies": {
     "cypress": "^3.3.0",
-    "cypress-react-unit-test": "^2.4.1"
+    "cypress-react-unit-test": "^2.4.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-test-renderer": "^16.8.6"
   }
 }

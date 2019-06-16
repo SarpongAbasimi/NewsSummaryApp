@@ -14,6 +14,7 @@ export class Body extends React.Component{
   componentDidMount(){
     const uri = apiKey.guardian;
     fetch(uri)
+    console.log('fecthing.......')
     .then(response => {
       if(response.ok){
         return response.json()
