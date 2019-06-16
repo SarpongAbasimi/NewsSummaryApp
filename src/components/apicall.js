@@ -1,4 +1,4 @@
-export const apiCall = (uri, that)=> {
+export const fetchData = (uri, that)=> {
   fetch(uri)
   .then(response => {
     if(response.ok){
