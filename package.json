@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --collect-coverage",
     "eject": "react-scripts eject",
-    "cypress": "node_modules/.bin/cypress open",
+    "cypress": "node_modules/.bin/cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
